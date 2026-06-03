@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alicia Boza — Realizadora Multidisciplinaria</title>
+  <meta name="description" content="Alicia Boza — Realizadora audiovisual, fotógrafa, ilustradora y diseñadora. Lima, Perú."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <!-- Bebas Neue para TODO el nombre (ALICIA y BOZA misma fuente) -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Space+Mono&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="c-dot"></div>
+<div id="c-ring"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="ld-letras"><span class="ld-a">A</span><span class="ld-b">B</span></div>
+  <div class="ld-barra"><div class="ld-prog"></div></div>
+  <p class="ld-texto">Realizadora Multidisciplinaria</p>
+</div>
+
+<!-- ════ NAV ════ -->
+<nav id="nav">
+  <a href="#inicio" class="nav-logo">AB<span>.</span></a>
+  <button id="nav-btn" aria-label="Menú"><span></span><span></span></button>
+  <ul id="nav-menu">
+    <li><a href="#trabajos" class="nl">Trabajos</a></li>
+    <li><a href="#sobre"    class="nl">Sobre mí</a></li>
+    <li><a href="#skills"   class="nl">Skills</a></li>
+    <li><a href="#contacto" class="nl">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- ════ HERO ════ -->
+<section id="inicio" class="hero">
+
+  <!-- NOMBRE: ALICIA y BOZA — misma fuente Bebas Neue, mismo color blanco sólido -->
+  <div class="hero-nombre-wrap">
+    <h1 class="hero-nombre">
+      <span class="hn-1">ALICIA</span>
+      <span class="hn-2">BOZA</span>
+    </h1>
+  </div>
+
+  <!-- Strip info -->
+  <div class="hero-strip">
+    <div class="hs-col">
+      <p class="hs-rol">Realizadora Multidisciplinaria</p>
+      <p class="hs-lugar">Lima, Perú</p>
+    </div>
+    <div class="hs-col hs-centro">
+      <nav class="hs-nav"><a href="#trabajos">Trabajos</a><a href="#sobre">Info</a><a href="#contacto">Contacto</a></nav>
+    </div>
+    <div class="hs-col hs-der">
+      <p class="hs-frase">Fotografía · Audiovisual<br/>Diseño · Ilustración</p>
+    </div>
+  </div>
+
+  <!-- GRADIENTE REAL — imagen FON.png embebida -->
+  <div class="hero-grad-zona">
+    <img id="img-fondo" class="hero-grad-img" src="" alt=""/>
+    <div class="hgz-capa-izq"></div>
+    <div class="hgz-capa-inf"></div>
+
+    <!-- Marquee animado -->
+    <div class="hero-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Fotografía</span><span>—</span><span>Audiovisual</span><span>—</span>
+        <span>Diseño</span><span>—</span><span>Ilustración</span><span>—</span>
+        <span>Fotografía</span><span>—</span><span>Audiovisual</span><span>—</span>
+        <span>Diseño</span><span>—</span><span>Ilustración</span><span>—</span>
+      </div>
+    </div>
+
+    <!-- Tags flotantes -->
+    <div class="hero-tags">
+      <span class="htag" style="--d:2.8s">Realizadora</span>
+      <span class="htag" style="--d:3.1s">Ilustradora</span>
+      <span class="htag" style="--d:3.4s">Diseñadora</span>
+    </div>
+
+    <!-- Disciplinas verticales -->
+    <div class="hero-disc-vert">
+      <span>Fotografía</span><span>Audiovisual</span>
+      <span>Diseño</span><span>Ilustración</span>
+    </div>
+  </div>
+
+  <div class="hero-ghost" aria-hidden="true">ALICIA BOZA</div>
+  <div class="hero-scroll-ind"><div class="hsi-cable"></div><span>Desplaza</span></div>
+</section>
+
+<!-- ════ TRABAJOS ════ -->
+<section id="trabajos" class="trabajos">
+  <div class="tr-header">
+    <div class="tr-hizq"><span class="tr-count">(07)</span><h2 class="tr-titulo">Trabajos</h2></div>
+    <div class="tr-filtros" id="filtros">
+      <button class="fb active" data-f="todo">Todo</button>
+      <button class="fb" data-f="fotografia">Fotografía</button>
+      <button class="fb" data-f="audiovisual">Audiovisual</button>
+      <button class="fb" data-f="diseno">Diseño</button>
+      <button class="fb" data-f="ilustracion">Ilustración</button>
+    </div>
+  </div>
+
+  <div class="tr-lista" id="tr-lista">
+
+    <!-- 01 AUDIOVISUAL -->
+    <div class="tr-fila tr-exp" data-cat="audiovisual" data-idx="0">
+      <div class="tr-inner">
+        <span class="tr-num">01</span>
+        <div class="tr-info"><h3 class="tr-nombre">Realización Audiovisual</h3><p class="tr-sub">Dirección · Guión · Edición · Postproducción</p></div>
+        <span class="tr-etiq">Audiovisual</span><span class="tr-yr">2024</span>
+        <span class="tr-mas">+</span>
+      </div>
+      <div class="tr-galeria">
+        <div class="gal-av">
+          <div class="gal-vid gal-vid-grande" data-yt="E6_NcPjXg6E">
+            <div class="gal-thumb">
+              <img src="https://img.youtube.com/vi/E6_NcPjXg6E/maxresdefault.jpg" alt="Reel"/>
+              <div class="gal-play"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg></div>
+              <div class="gal-vinfo"><span class="gvi-cat">Reel</span><h4>Reel Audiovisual</h4></div>
+            </div>
+          </div>
+          <div class="gal-vid" data-yt="0avnyC78VVE">
+            <div class="gal-thumb">
+              <img src="https://img.youtube.com/vi/0avnyC78VVE/maxresdefault.jpg" alt="Proyecto"/>
+              <div class="gal-play"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg></div>
+              <div class="gal-vinfo"><span class="gvi-cat">Proyecto</span><h4>Proyecto Audiovisual</h4></div>
+            </div>
+          </div>
+          <div class="gal-vid" data-yt="Fpq-UxANQEk">
+            <div class="gal-thumb">
+              <img src="https://img.youtube.com/vi/Fpq-UxANQEk/maxresdefault.jpg" alt="Cortometraje"/>
+              <div class="gal-play"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg></div>
+              <div class="gal-vinfo"><span class="gvi-cat">Cortometraje</span><h4>Dirigido, escrito y editado</h4></div>
+            </div>
+          </div>
+          <div class="gal-vid" data-yt="OioIMuNPHpI">
+            <div class="gal-thumb">
+              <img src="https://img.youtube.com/vi/OioIMuNPHpI/maxresdefault.jpg" alt="Cortometraje"/>
+              <div class="gal-play"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg></div>
+              <div class="gal-vinfo"><span class="gvi-cat">Cortometraje</span><h4>Dirigido, escrito y editado</h4></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02 ILUSTRACIÓN — tus ilustraciones reales -->
+    <div class="tr-fila tr-exp" data-cat="ilustracion" data-idx="1">
+      <div class="tr-inner">
+        <span class="tr-num">02</span>
+        <div class="tr-info"><h3 class="tr-nombre">Ilustración</h3><p class="tr-sub">Arte conceptual · Retratos ilustrados · Composición</p></div>
+        <span class="tr-etiq">Ilustración</span><span class="tr-yr">2023</span>
+        <span class="tr-mas">+</span>
+      </div>
+      <div class="tr-galeria">
+        <div class="behance-strip">
+          <a href="https://www.behance.net/aliciaboza1" target="_blank" class="beh-card">
+            <span class="beh-etiq">Ver portafolio completo</span>
+            <h4>Ilustración en Behance</h4>
+            <span class="beh-cta">behance.net/aliciaboza1 ↗</span>
+          </a>
+        </div>
+        <!-- 10 ilustraciones tuyas — cargadas desde JS con base64 -->
+        <div class="gal-ilus-grid" id="gal-ilus">
+          <!-- Se pobla desde script.js -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 03 RETRATO ARTÍSTICO -->
+    <div class="tr-fila tr-exp" data-cat="fotografia" data-idx="2">
+      <div class="tr-inner">
+        <span class="tr-num">03</span>
+        <div class="tr-info"><h3 class="tr-nombre">Retrato artístico</h3><p class="tr-sub">Doble exposición · Espejos · Estudio · Blanco y negro</p></div>
+        <span class="tr-etiq">Fotografía</span><span class="tr-yr">2024</span>
+        <span class="tr-mas">+</span>
+      </div>
+      <div class="tr-galeria">
+        <div class="gal-retrato-grid" id="gal-retratos-art">
+          <!-- Se pobla desde script.js con retrato-01 a retrato-05 -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 04 FOTOGRAFÍA ARTÍSTICA (playa, dobles) -->
+    <div class="tr-fila tr-exp" data-cat="fotografia" data-idx="3">
+      <div class="tr-inner">
+        <span class="tr-num">04</span>
+        <div class="tr-info"><h3 class="tr-nombre">Fotografía artística y análoga</h3><p class="tr-sub">Playa · Movimiento · Múltiple exposición</p></div>
+        <span class="tr-etiq">Fotografía</span><span class="tr-yr">2023</span>
+        <span class="tr-mas">+</span>
+      </div>
+      <div class="tr-galeria">
+        <div class="gal-cine-grid" id="gal-cine">
+          <!-- Se pobla desde script.js con retrato-10 a retrato-18 -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 05 FOTOGRAFÍA CORPORATIVA Y SOCIAL -->
+    <div class="tr-fila tr-exp" data-cat="fotografia" data-idx="4">
+      <div class="tr-inner">
+        <span class="tr-num">05</span>
+        <div class="tr-info"><h3 class="tr-nombre">Fotografía corporativa y social</h3><p class="tr-sub">Quinceañeros · Eventos · Grupos · Exteriores</p></div>
+        <span class="tr-etiq">Fotografía</span><span class="tr-yr">2024</span>
+        <span class="tr-mas">+</span>
+      </div>
+      <div class="tr-galeria">
+        <div class="gal-scroll-h" id="gal-social">
+          <!-- Se pobla desde script.js con retrato-06 a retrato-09 -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 06 FOTOGRAFÍA DE PRODUCTOS -->
+    <div class="tr-fila tr-exp" data-cat="fotografia" data-idx="5">
+      <div class="tr-inner">
+        <span class="tr-num">06</span>
+        <div class="tr-info"><h3 class="tr-nombre">Fotografía de productos</h3><p class="tr-sub">Still life · Composición · Dirección de arte</p></div>
+        <span class="tr-etiq">Fotografía</span><span class="tr-yr">2024</span>
+        <span class="tr-mas">+</span>
+      </div>
+      <div class="tr-galeria">
+        <div class="gal-scroll-h" id="gal-prods">
+          <!-- Se pobla desde script.js con prod-01 a prod-06 -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 07 DISEÑO -->
+    <div class="tr-fila tr-exp" data-cat="diseno" data-idx="6">
+      <div class="tr-inner">
+        <span class="tr-num">07</span>
+        <div class="tr-info"><h3 class="tr-nombre">Diseño editorial y digital</h3><p class="tr-sub">Revistas · Packaging · Arte publicitario · Textil</p></div>
+        <span class="tr-etiq">Diseño</span><span class="tr-yr">2023</span>
+        <span class="tr-mas">+</span>
+      </div>
+      <div class="tr-galeria">
+        <div class="gal-diseno-placeholder">
+          <p>Próximamente · En construcción</p>
+          <a href="https://www.behance.net/aliciaboza1" target="_blank">Ver trabajos en Behance ↗</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- fin tr-lista -->
+</section>
+
+<!-- MODAL VÍDEO -->
+<div id="modal-v" class="modal-v">
+  <div id="mv-bg" class="mv-bg"></div>
+  <div class="mv-caja">
+    <button id="mv-cerrar">✕ Cerrar</button>
+    <div class="mv-frame-wrap"><iframe id="mv-frame" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+  </div>
+</div>
+<!-- MODAL IMAGEN -->
+<div id="modal-i" class="modal-i">
+  <div id="mi-bg" class="mi-bg"></div>
+  <div class="mi-caja">
+    <button id="mi-cerrar">✕</button>
+    <img id="mi-foto" src="" alt=""/>
+  </div>
+</div>
+
+<!-- ════ SOBRE MÍ ════ -->
+<!-- FONDO CLARO en esta sección -->
+<section id="sobre" class="sobre">
+  <div class="sobre-inner">
+
+    <!-- Foto real con cabello rizado -->
+    <div class="sobre-foto-col">
+      <div class="sobre-foto-wrap" data-reveal>
+        <!-- Foto embebida vía JS con base64 -->
+        <img id="img-sobre-mi" src="" alt="Alicia Boza"/>
+        <div class="sobre-marco"></div>
+        <div class="sobre-badge">Alicia Boza</div>
+      </div>
+      <div class="sobre-datos" data-reveal>
+        <div class="sd-fila"><span class="sd-etiq">Ubicación</span><span class="sd-val">Lima, Perú</span></div>
+        <div class="sd-fila"><span class="sd-etiq">Email</span><a href="mailto:aliciasofiaboza@gmail.com" class="sd-val sd-link">aliciasofiaboza@gmail.com</a></div>
+        <div class="sd-fila"><span class="sd-etiq">Teléfono</span><a href="tel:+51983922099" class="sd-val sd-link">(+51) 983 922 099</a></div>
+        <div class="sd-fila"><span class="sd-etiq">Idiomas</span><span class="sd-val">Español · Inglés básico</span></div>
+      </div>
+      <div class="sobre-redes" data-reveal>
+        <a href="https://www.instagram.com/alicia_boza_" target="_blank" class="sd-red">Instagram ↗</a>
+        <a href="https://www.linkedin.com/in/alicia-boza-ontaneda-443bb6154/" target="_blank" class="sd-red">LinkedIn ↗</a>
+        <a href="https://www.behance.net/aliciaboza1" target="_blank" class="sd-red">Behance ↗</a>
+      </div>
+    </div>
+
+    <!-- Texto -->
+    <div class="sobre-texto-col">
+      <div class="sobre-etiq" data-reveal>— Sobre mí</div>
+      <h2 class="sobre-titulo" data-reveal>Realizadora<br/><em>Multidisciplinaria</em></h2>
+      <p class="sobre-bio" data-reveal>
+        Soy realizadora audiovisual y diseñadora multidisciplinaria, apasionada por contar historias a través de imágenes. Mi formación en Dirección de Cine y Televisión, junto con mi experiencia en diseño publicitario e ilustración, me ha permitido explorar distintas formas de narrar.
+      </p>
+      <p class="sobre-bio" data-reveal>
+        Creo en el poder de las imágenes para transmitir ideas, conectar con las personas y generar impacto. Cada proyecto es una oportunidad para construir un lenguaje visual nuevo.
+      </p>
+      <div class="sobre-areas" data-reveal>
+        <div class="sa-item"><span class="sa-n">01</span><div><h3>Realización Audiovisual</h3><p>Dirección, guión, producción, grabación y edición</p></div></div>
+        <div class="sa-item"><span class="sa-n">02</span><div><h3>Fotografía</h3><p>Digital, análoga, retrato, corporativa, productos</p></div></div>
+        <div class="sa-item"><span class="sa-n">03</span><div><h3>Diseño</h3><p>Editorial, digital, packaging, textil, arte publicitario</p></div></div>
+        <div class="sa-item"><span class="sa-n">04</span><div><h3>Ilustración</h3><p>Arte conceptual, publicidad, dibujo técnico</p></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════ SKILLS ════ -->
+<section id="skills" class="skills">
+  <div class="skills-inner">
+    <div class="skills-head" data-reveal>
+      <span class="sk-etiq">— Skills</span>
+      <h2 class="sk-titulo">Herramientas<br/><em>técnicas</em></h2>
+    </div>
+    <div class="skills-cols" data-reveal>
+      <div class="sk-col">
+        <div class="sk-col-label">Imagen y diseño</div>
+        <div class="sk-fila"><span class="sk-nom">Photoshop</span>     <div class="sk-barra"><div class="sk-fill" data-lvl="95"></div></div><span class="sk-pct">95%</span></div>
+        <div class="sk-fila"><span class="sk-nom">Lightroom</span>     <div class="sk-barra"><div class="sk-fill" data-lvl="95"></div></div><span class="sk-pct">95%</span></div>
+        <div class="sk-fila"><span class="sk-nom">Illustrator</span>   <div class="sk-barra"><div class="sk-fill" data-lvl="88"></div></div><span class="sk-pct">88%</span></div>
+        <div class="sk-fila"><span class="sk-nom">InDesign</span>      <div class="sk-barra"><div class="sk-fill" data-lvl="82"></div></div><span class="sk-pct">82%</span></div>
+        <div class="sk-fila"><span class="sk-nom">Capture One</span>   <div class="sk-barra"><div class="sk-fill" data-lvl="80"></div></div><span class="sk-pct">80%</span></div>
+        <div class="sk-fila"><span class="sk-nom">Affinity Designer</span><div class="sk-barra"><div class="sk-fill" data-lvl="75"></div></div><span class="sk-pct">75%</span></div>
+        <div class="sk-fila"><span class="sk-nom">Corel Draw</span>    <div class="sk-barra"><div class="sk-fill" data-lvl="72"></div></div><span class="sk-pct">72%</span></div>
+        <div class="sk-fila"><span class="sk-nom">ArtRage / SketchBook</span><div class="sk-barra"><div class="sk-fill" data-lvl="82"></div></div><span class="sk-pct">82%</span></div>
+      </div>
+      <div class="sk-col">
+        <div class="sk-col-label">Audiovisual y motion</div>
+        <div class="sk-fila"><span class="sk-nom">Premiere Pro</span>  <div class="sk-barra"><div class="sk-fill" data-lvl="90"></div></div><span class="sk-pct">90%</span></div>
+        <div class="sk-fila"><span class="sk-nom">DaVinci Resolve</span><div class="sk-barra"><div class="sk-fill" data-lvl="85"></div></div><span class="sk-pct">85%</span></div>
+        <div class="sk-fila"><span class="sk-nom">After Effects</span> <div class="sk-barra"><div class="sk-fill" data-lvl="78"></div></div><span class="sk-pct">78%</span></div>
+        <div class="sk-fila"><span class="sk-nom">Final Cut</span>     <div class="sk-barra"><div class="sk-fill" data-lvl="75"></div></div><span class="sk-pct">75%</span></div>
+        <div class="sk-fila"><span class="sk-nom">Audition</span>      <div class="sk-barra"><div class="sk-fill" data-lvl="68"></div></div><span class="sk-pct">68%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ CONTACTO ════ -->
+<section id="contacto" class="contacto">
+  <div class="ct-grad-deco"></div>
+  <div class="ct-titulo-wrap">
+    <h2 class="ct-titulo">
+      <span class="ct-linea">Trabajemos</span>
+      <span class="ct-linea ct-outline"><em>juntos.</em></span>
+    </h2>
+  </div>
+  <div class="ct-cuerpo">
+    <div class="ct-izq" data-reveal>
+      <p class="ct-desc">Siempre en búsqueda de nuevas oportunidades creativas. Conectemos.</p>
+      <div class="ct-links">
+        <a href="mailto:aliciasofiaboza@gmail.com" class="ct-link"><span class="ctl-e">Email</span><span class="ctl-v">aliciasofiaboza@gmail.com</span><span>↗</span></a>
+        <a href="tel:+51983922099" class="ct-link"><span class="ctl-e">Teléfono</span><span class="ctl-v">(+51) 983 922 099</span><span>↗</span></a>
+        <a href="https://www.instagram.com/alicia_boza_" target="_blank" class="ct-link"><span class="ctl-e">Instagram</span><span class="ctl-v">@alicia_boza_</span><span>↗</span></a>
+        <a href="https://www.linkedin.com/in/alicia-boza-ontaneda-443bb6154/" target="_blank" class="ct-link"><span class="ctl-e">LinkedIn</span><span class="ctl-v">Alicia Boza Ontaneda</span><span>↗</span></a>
+        <a href="https://www.behance.net/aliciaboza1" target="_blank" class="ct-link"><span class="ctl-e">Behance</span><span class="ctl-v">aliciaboza1</span><span>↗</span></a>
+      </div>
+    </div>
+    <form id="formulario" class="ct-form" data-reveal novalidate>
+      <div class="fg"><label for="f-n">Nombre</label><input id="f-n" name="nombre" type="text" placeholder="Tu nombre" required/></div>
+      <div class="fg"><label for="f-e">Email</label><input id="f-e" name="email" type="email" placeholder="tu@email.com" required/></div>
+      <div class="fg">
+        <label for="f-t">Tipo de proyecto</label>
+        <select id="f-t" name="tipo">
+          <option value="">Selecciona</option>
+          <option>Fotografía</option><option>Video y audiovisual</option>
+          <option>Diseño gráfico</option><option>Ilustración</option><option>Otro</option>
+        </select>
+      </div>
+      <div class="fg"><label for="f-m">Mensaje</label><textarea id="f-m" name="mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea></div>
+      <button type="submit" class="f-enviar"><span>Enviar mensaje</span><span class="f-fl">→</span></button>
+      <p id="f-ok" class="f-ok">¡Mensaje enviado! Pronto estaré en contacto.</p>
+    </form>
+  </div>
+  <div class="footer">
+    <div class="footer-redes">
+      <a href="https://www.instagram.com/alicia_boza_" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/in/alicia-boza-ontaneda-443bb6154/" target="_blank">LinkedIn</a>
+      <a href="https://www.behance.net/aliciaboza1" target="_blank">Behance</a>
+    </div>
+    <p class="footer-copy">© 2024 Alicia Boza · Lima, Perú</p>
+    <a href="#inicio" class="footer-firma">ALICIA BOZA</a>
+  </div>
+</section>
+
+<!-- Scripts: primero los datos de imagen, luego el script principal -->
+<script src="images-data.js"></script>
+<script src="images-gallery.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
